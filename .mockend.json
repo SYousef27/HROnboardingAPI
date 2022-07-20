@@ -1,17 +1,7 @@
 {
   "User": {
-    "firstName": { "string": [
-      "Sherif",
-      "Khaled",
-      "Rana",
-      "Sara",
-      "Hagar"
-    ] },
-    "lastName": {"string":[
-    "Belal",
-    "Shaker",
-    "Helal",
-    "El-Naggar"]},
+    "firstName": { "string": {} },
+    "lastName": {"string":{}},
     "role":{"string":[
       "HR",
       "IT",
