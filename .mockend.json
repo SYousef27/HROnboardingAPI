@@ -1,6 +1,24 @@
 {
   "Users": {
-    "firstName": { "string": "Sherif" },
-    "lastName": {"string":"Yousef"},
+    "firstName": { "string": [
+      "Sherif",
+      "Khaled",
+      "Rana",
+      "Sara",
+      "Hagar"
+    ] },
+    "lastName": {"string":[
+    "Belal,
+    "Shaker",
+    "Helal",
+    "El-Naggar"]},
+    "role":{[
+      "HR",
+      "IT",
+      "Hardware",
+      "Automation",
+      "7amada",
+      "7amada tany"
+    ]}
     }
 }
