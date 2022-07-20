@@ -2,7 +2,7 @@
     "User": {
       "firstName": { "string": {} },
       "lastName": {"string":{}},
-      "role":{ "string",
+      "role":{ 
         "belongsTo":"Role"
         }
       },
