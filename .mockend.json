@@ -2,13 +2,11 @@
   "User": {
     "firstName": { "string": {} },
     "lastName": {"string":{}},
-    "role":{"string":[
-      "HR",
-      "IT",
-      "Hardware",
-      "Automation",
-      "7amada",
-      "7amada tany"
-    ]}
+    "role":{
+      "belongsTo":"Roles"
+      }
+    },
+  "Roles":{
+    "name":{"string":{}}
     }
 }
