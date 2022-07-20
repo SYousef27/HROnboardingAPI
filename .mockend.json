@@ -3,10 +3,10 @@
     "firstName": { "string": {} },
     "lastName": {"string":{}},
     "role":{
-      "belongsTo":"Roles"
+      "belongsTo":"Role"
       }
     },
-  "Roles":{
+  "Role":{
     "name":{"string":{}}
     }
 }
