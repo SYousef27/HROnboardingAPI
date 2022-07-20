@@ -1,13 +1,14 @@
 {
-  "User": {
-    "firstName": { "string": {} },
-    "lastName": {"string":{}},
-    "UserRole":{
-      "belongsTo":"Role"
+    "User": {
+      "firstName": { "string": {} },
+      "lastName": {"string":{}},
+      "UserRole":{
+        "belongsTo":"Role"
+        }
+      },
+    "Role":{
+      "roleName":{"string":{},
+                 "hasMany":"User"}
       }
-    },
-  "Role":{
-    "roleName":{"string":{},
-               "hasMany":"User"},
-    }
-}
+  }
+  
